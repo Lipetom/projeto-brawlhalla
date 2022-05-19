@@ -1,0 +1,19 @@
+:root {
+    --cor-vermelha-principal: #ff1e00;
+    --cor-vermelha-media: #f89284;
+    --cor-vermelha-fraca: #ffbebe;
+
+    --cor-marrom-fraco: #ebd5d2;
+
+    --cor-azul-principal: #447ffd;
+    --cor-azul-media: #d0e0fd;
+    --cor-azul-fraca: #96c9f8;
+
+    --cor-roxa-fraca: #c2c2f1;
+
+    --cor-titulo-fraco: #faefd8;
+    --cor-titulo-forte: #8b00a7;
+
+    --cor-padrao: #ffffff;
+    --cor-secundaria: #000000;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem!</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />  
+    <link rel="stylesheet" href="./src/css/estilos.css"/>   
+    <link rel="stylesheet" href="./src/css/responsivo.css"/> 
+    <link rel="icon" href="./src/imagens/favicon.png">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/val.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Val</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="val" data-name="Val">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/val-pequeno.png" alt="Personagem Val">
+                </li>
+
+                <li class="personagem" id="reno" data-name="Reno">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/reno-pequeno.png" alt="Personagem Reno">
+                </li>
+
+                <li class="personagem" id="thatch" data-name="Thatch">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/thatch-pequeno.png" alt="Personagem Thatch">
+                </li>
+
+                <li class="personagem" id="barraza" data-name="Barraza">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/barraza-pequeno.png" alt="Personagem Barraza">
+                </li>
+
+                <li class="personagem" id="ragnir" data-name="Ragnir">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/ragnir-pequeno.png" alt="Personagem Ragnir">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="magyar" data-name="Magyar">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/magyar-pequeno.png" alt="Personagem Magyar">
+                </li>
+
+                <li class="personagem" id="rainha-nai" data-name="Rainha Nai">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/rainha-nai-pequeno.png" alt="Personagem Rainha Nai">
+                </li>
+
+                <li class="personagem" id="mirage-encarnada" data-name="Mirage Encarnada">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/mirage-encarnada-pequeno.png" alt="Personagem Mirage Encarnada">
+                </li>
+
+                <li class="personagem" id="aleatorio" data-name="Aleátorio">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/aleatorio-pequeno.gif" alt="Personagens aleátorios">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/Magyar.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Magyar</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
